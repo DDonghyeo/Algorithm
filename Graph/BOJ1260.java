@@ -1,9 +1,11 @@
+package Graph;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
 
-//DFS와 BFS
+//DFS와 Graph.BFS
 public class BOJ1260 {
 
     public static int[][] edges; //간선 기록을 위한 인접 행렬

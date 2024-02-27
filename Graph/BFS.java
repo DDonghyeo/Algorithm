@@ -1,3 +1,5 @@
+package Graph;
+
 import java.util.*;
 
 public class BFS {
@@ -28,8 +30,8 @@ public class BFS {
         graph.get(source).add(destination);
     }
 
-    //Queue를 이용하여 BFS 메서드 작성
-    //BFS 탐색
+    //Queue를 이용하여 Graph.BFS 메서드 작성
+    //Graph.BFS 탐색
     public void bfs(int source) {
         Queue<Integer> queue = new LinkedList<>();
 
