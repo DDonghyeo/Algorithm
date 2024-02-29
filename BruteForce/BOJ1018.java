@@ -8,6 +8,7 @@ import java.util.StringTokenizer;
 public class BOJ1018 {
 
     /**
+     * <a href= "https://www.acmicpc.net/problem/1018"> 링크 </a>
      * <h1>문제</h1>
      * 지민이는 자신의 저택에서 MN개의 단위 정사각형으로 나누어져 있는 M×N 크기의 보드를 찾았다.
      * 어떤 정사각형은 검은색으로 칠해져 있고, 나머지는 흰색으로 칠해져 있다. 지민이는 이 보드를 잘라서 8×8 크기의 체스판으로 만들려고 한다.
