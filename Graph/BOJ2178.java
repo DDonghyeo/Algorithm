@@ -20,51 +20,60 @@ public class BOJ2178 {
      *<br>
      * 위의 예에서는 15칸을 지나야 (N, M)의 위치로 이동할 수 있다. 칸을 셀 때에는 시작 위치와 도착 위치도 포함한다.<br>
      * */
-    public static int[][] edges; //간선 기록을 위한 인접 행렬
 
-    public static Set<Integer> visited = new HashSet<>(); //방문한 리스트
+    public static Set<int[]> visited = new HashSet<>(); //방문한 리스트
+
+    public static int[][] map;
+
+    public static int[][] direction = {{0, 1}, {0, -1}, {-1, 0}, {1, 0}}; //방향배열 - 상, 하, 좌, 우
+
+    public static int n;
+    public static int m;
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 
-        //N = 정점의 개수
-        int n = Integer.parseInt(br.readLine());
-        //M = 간선의 개수
-        int m = Integer.parseInt(br.readLine());
+        n = Integer.parseInt(st.nextToken());
+        m = Integer.parseInt(st.nextToken());
 
-        edges = new int[n+1][n+1];
+        // n*m 크기의 배열 (미로)
+        map = new int[n][m];
 
-        StringTokenizer st;
-
-        for (int i = 0; i < m; i++) {
-            st  = new StringTokenizer(br.readLine(), " ");
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
-
-            edges[a][b] = edges[b][a] = 1; // (a,b) 와 (b,a) 모두 기록
+        for (int i = 0; i < n; i++) {
+            String temp = br.readLine();
+            for (int j = 0; j < m; j++) {
+                map[i][j] = temp.charAt(j) - '0' ;
+            }
         }
 
-        bfs(1);
 
-        System.out.println(visited.size()-1);
-
+        bfs(0, 0); // (0, 0)부터 시작
+        System.out.println(map[n-1][m-1]);
     }
 
-    public static void bfs(int source) {
-        Queue<Integer> queue = new LinkedList<>();
+    public static void bfs(int x, int y) {
+        Queue<int[]> queue = new LinkedList<>();
 
-        queue.offer(source); // Queue에 현재 노드 넣기
+        int[] first = {x, y};
 
-        visited.add(source); // 방문 기록
+        queue.offer(first); // Queue에 현재 노드 넣기
+        visited.add(first); // 방문 기록
 
         while (!queue.isEmpty()) { // Queue가 빌 때까지 반복
-            int current = queue.poll(); // Queue에서 현재 값 꺼내기
+            int[] current = queue.poll(); // Queue에서 현재 값 꺼내기
 
-            //인접한 노드들 모두 방문
-            for (int i = 0; i<edges[current].length; i++) {
-                if (edges[current][i] == 1 && !visited.contains(i)) { // 인접 노드 중, 방문하지 않은 노드에 대해
-                    queue.offer(i); // 해당 노드 Queue에 넣기
-                    visited.add(i); //방문 기록
+            //인접한 노드들 모두 방문 - 상, 하, 좌, 우 모두 방문
+            for (int i = 0; i<4; i++) {
+
+                int[] next = {current[0] + direction[i][0], current[1] + direction[i][1]};
+
+                if(next[0] >= 0 && next[1] >= 0 && next[0] < n && next[1] < m) { //map bound에 넘치는지 검사
+                    if( map[next[0]][next[1]] == 1 && !visited.contains(next)) { //갈 수 있는 길인지 & 방문 했던 길인지 검사
+                        queue.add(next);
+                        map[next[0]][next[1]] = map[current[0]][current[1]] + 1;
+                        visited.add(next);
+                    }
                 }
             }
         }
