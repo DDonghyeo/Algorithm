@@ -38,9 +38,6 @@ public class BOJ1260 {
         System.out.println();
         bfs(v);
 
-        Stack<Integer> stack = new Stack<>();
-        stack.pop()
-
     }
 
     public static void dfs(int source) {
