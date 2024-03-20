@@ -84,7 +84,7 @@ public class BOJ18111_마인크래프트 {
             }
 
             int currentTime = calTime(land, currentHeightUpside);  //걸리는 시간 검사
-            if (currentTime <= minTimeUpSide) { //만약 걸린 시간이 더 작다면
+            if (currentTime <= minTimeUpSide) { // 만약 걸린 시간이 더 작다면 (=을 넣어서 같은 시간이어도 높이가 크다면 큰게 저장됨)
                 minTimeUpSide = currentTime; //minTime에 저장
                 currentHeightUpside++; //다음 높이 (위 방향)
             } else {
