@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="46c009c9-978f-41d7-bd4f-3ff97d29fad7" name="변경" comment="BOJ 10026">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///Library/Java/JavaVirtualMachines/jdk-18.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2caTLgYbuUSq6HWhgenlclNvNFI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kimdonghyun/Desktop/Dong_Hyun/projects/Algorithm/DataStructure&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.1553398&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.21107627&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;profiler.jvm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DataStructure" />
+      <recent name="$PROJECT_DIR$/Math" />
+      <recent name="$PROJECT_DIR$/BruteForce" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="Graph" />
+    </key>
+  </component>
+  <component name="RunManager" selected="애플리케이션.BOJ2805_나무자르기">
+    <configuration name="BOJ10026_적록색약" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Graph.BOJ10026_적록색약" />
+      <module name="Graph" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Graph.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ18111_마인크래프트" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ18111_마인크래프트" />
+      <module name="BruteForce" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ2805_나무자르기" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ2805_나무자르기" />
+      <module name="BinarySearch" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ7662_이중우선순위큐" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ7662_이중우선순위큐" />
+      <module name="Queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BOJ7662_이중우선순위큐_재시도" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ7662_이중우선순위큐_재시도" />
+      <module name="Queue" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.BOJ2805_나무자르기" />
+        <item itemvalue="애플리케이션.BOJ10026_적록색약" />
+        <item itemvalue="애플리케이션.BOJ7662_이중우선순위큐_재시도" />
+        <item itemvalue="애플리케이션.BOJ7662_이중우선순위큐" />
+        <item itemvalue="애플리케이션.BOJ18111_마인크래프트" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="46c009c9-978f-41d7-bd4f-3ff97d29fad7" name="변경" comment="" />
+      <created>1708348634493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708348634493</updated>
+      <workItem from="1708348635537" duration="1960000" />
+      <workItem from="1708484205797" duration="4722000" />
+      <workItem from="1708875263678" duration="18161000" />
+      <workItem from="1709175019510" duration="240000" />
+      <workItem from="1709175263999" duration="28344000" />
+      <workItem from="1709309574049" duration="21166000" />
+      <workItem from="1710229887503" duration="14484000" />
+      <workItem from="1710931087552" duration="16462000" />
+      <workItem from="1711207179419" duration="18615000" />
+      <workItem from="1711623172922" duration="4099000" />
+      <workItem from="1712409092058" duration="7122000" />
+      <workItem from="1714395915506" duration="11358000" />
+      <workItem from="1714666243351" duration="597000" />
+      <workItem from="1714809352236" duration="1806000" />
+    </task>
+    <task id="LOCAL-00001" summary="BOJ 1260">
+      <created>1709177902174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709177902174</updated>
+    </task>
+    <task id="LOCAL-00002" summary="BOJ 2178">
+      <created>1709179428243</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709179428243</updated>
+    </task>
+    <task id="LOCAL-00003" summary="BOJ 1018">
+      <created>1709191471454</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191471454</updated>
+    </task>
+    <task id="LOCAL-00004" summary="BOJ 2667">
+      <created>1709191480689</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191480689</updated>
+    </task>
+    <task id="LOCAL-00005" summary="BOJ 2178">
+      <created>1709191486490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191486490</updated>
+    </task>
+    <task id="LOCAL-00006" summary="BOJ 2606">
+      <created>1709191490869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191490869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="BOJ 1018">
+      <created>1709191572987</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191572987</updated>
+    </task>
+    <task id="LOCAL-00008" summary="BOJ 1181">
+      <created>1709192798485</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192798485</updated>
+    </task>
+    <task id="LOCAL-00009" summary="BOJ 1436">
+      <created>1709193872326</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709193872326</updated>
+    </task>
+    <task id="LOCAL-00010" summary="BOJ 1966">
+      <created>1709215938758</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709215938758</updated>
+    </task>
+    <task id="LOCAL-00011" summary="BOJ 1920">
+      <created>1709289978398</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709289978398</updated>
+    </task>
+    <task id="LOCAL-00012" summary="BOJ 1978">
+      <created>1709471276126</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1709471276126</updated>
+    </task>
+    <task id="LOCAL-00013" summary="BOJ 18111">
+      <created>1709474600959</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1709474600959</updated>
+    </task>
+    <task id="LOCAL-00014" summary="BOJ 1107">
+      <created>1710937356747</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937356747</updated>
+    </task>
+    <task id="LOCAL-00015" summary="BOJ 1003">
+      <created>1710937362702</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937362702</updated>
+    </task>
+    <task id="LOCAL-00016" summary="BOJ 1012">
+      <created>1710937369285</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937369285</updated>
+    </task>
+    <task id="LOCAL-00017" summary="BOJ 18111">
+      <created>1710937377231</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937377231</updated>
+    </task>
+    <task id="LOCAL-00018" summary="BOJ 10845">
+      <created>1710937385075</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1710937385075</updated>
+    </task>
+    <task id="LOCAL-00019" summary="BOJ 7569">
+      <created>1710951209476</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710951209476</updated>
+    </task>
+    <task id="LOCAL-00020" summary="BOJ 7576">
+      <created>1711024725328</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1711024725328</updated>
+    </task>
+    <task id="LOCAL-00021" summary="BOJ 5430">
+      <created>1711024738315</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1711024738315</updated>
+    </task>
+    <task id="LOCAL-00022" summary="BOJ 1074">
+      <created>1711208696634</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1711208696634</updated>
+    </task>
+    <task id="LOCAL-00023" summary="BOJ 7662">
+      <created>1711212163596</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1711212163596</updated>
+    </task>
+    <task id="LOCAL-00024" summary="BOJ 14500">
+      <created>1711353759780</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1711353759780</updated>
+    </task>
+    <task id="LOCAL-00025" summary="BOJ 10026">
+      <created>1712410281258</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1712410281258</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="BOJ 2667" />
+    <MESSAGE value="BOJ 2178" />
+    <MESSAGE value="BOJ 2606" />
+    <MESSAGE value="BOJ 1018" />
+    <MESSAGE value="BOJ 1181" />
+    <MESSAGE value="BOJ 1436" />
+    <MESSAGE value="BOJ 1676" />
+    <MESSAGE value="BOJ 1966" />
+    <MESSAGE value="BOJ 1874" />
+    <MESSAGE value="BOJ 1920" />
+    <MESSAGE value="BOJ 1929" />
+    <MESSAGE value="BOJ 1978" />
+    <MESSAGE value="BOJ 2108" />
+    <MESSAGE value="BOJ 1107" />
+    <MESSAGE value="BOJ 1003" />
+    <MESSAGE value="BOJ 1012" />
+    <MESSAGE value="BOJ 18111" />
+    <MESSAGE value="BOJ 10845" />
+    <MESSAGE value="BOJ 7569" />
+    <MESSAGE value="BOJ 7576" />
+    <MESSAGE value="BOJ 5430" />
+    <MESSAGE value="BOJ 1074" />
+    <MESSAGE value="BOJ 7662" />
+    <MESSAGE value="BOJ 14500" />
+    <MESSAGE value="BOJ 10026" />
+    <option name="LAST_COMMIT_MESSAGE" value="BOJ 10026" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/BOJ7569_토마토.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Graph/BOJ7576_토마토.java</url>
+          <line>98</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
