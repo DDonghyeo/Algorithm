@@ -22,7 +22,8 @@ def bfs(v):
             print(distance[current]) #총 걸린 시간 출력하고 종료
             break
         for nextn in (current-1, current+1, current*2): #-1, +1, *2 모두 행해봄
-            if (0 <= current <= MAX_NUM) and (not distance[nextn]): #범위 안에 있고 방문하지 않았다면
+            print("next : ", nextn)
+            if (0 <= nextn <= MAX_NUM) and (not distance[nextn]): #범위 안에 있고 방문하지 않았다면
                 distance[nextn] = distance[current] + 1
                 queue.append(nextn)
 
