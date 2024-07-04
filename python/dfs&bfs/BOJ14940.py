@@ -51,5 +51,8 @@ bfs(startX, startY)
 
 for i in range(n):
     for j in range(m):
-        print(visited[i][j], end=" ")
+        if (field[i][j] == 0):
+            print(0, end=" ") # 원래 갈 수 없는 지역이었는지 0을 검사 -> 아예 도달하지 못한 곳이라면 0도 -1이 되어있음
+        else:
+            print(visited[i][j], end=" ")
     print()
